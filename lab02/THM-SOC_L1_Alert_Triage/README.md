@@ -49,7 +49,7 @@ Completing this lab solidified my foundational knowledge of SOC operations.
 I am now more confident in my ability to handle the high-pressure environment of an L1 analyst role and understand the critical importance 
 of efficient alert triage in modern cybersecurity defense.
 
-## Discalaimer
+## Disclaimer 
 
 This lab writeup is for educational and portfolio purposes only.  
 No real-world incident data is included, and no platform-protected solutions are disclosed.  
