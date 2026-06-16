@@ -34,6 +34,15 @@ I adopted a structured approach to triage the alerts presented in the dashboard:
 5. **Ticket Closure**: Closed the ticket.
 
 
+## Key Takeaways
+
+1. **Prioritization Drives Efficiency**: Not all alerts are created equal. By filtering by severity, I ensured that high-risk incidents were addressed first, preventing critical breaches while managing alert fatigue.
+2. **The Power of Documentation**: The technical investigation is only half the job. Clear, concise ticket comments are essential for audit trails and for handing off incidents to L2 analysts.
+3. **Systematic Reduces Errors**: Following a repeatable triage workflow (Review → Investigate → Verify → Close) minimizes human error and ensures no step is missed during high-pressure shifts.
+4. **Ownership Matters**: Taking immediate ownership of an alert (assigning it to oneself) prevents "bystander effect" and ensures accountability throughout the incident lifecycle.
+5. **Dashboard Navigation**: Became proficient in navigating a SOC dashboard, filtering data, and managing a queue of active tickets efficiently.
+
+
 ## Conclusion
 
 Completing this lab solidified my foundational knowledge of SOC operations. 
