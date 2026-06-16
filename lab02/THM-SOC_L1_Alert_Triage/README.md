@@ -14,13 +14,13 @@ As an aspiring entry-level analyst, mastering the ability to efficiently triage 
 - Simulated SOC dashboard provided by TryHackMe.
 
 
-## Learning Objectives
+## Skills Acquired
 
-- Understand the core concepts of events vs. alerts;
-- Understand the alert properties;
-- Develop a systematic triage methodology for L1 analysts;
-- Navigate and utilize a SOC dashboard for initial investigation;
-- Map out the complete alert lifecycle.
+- Understood the core concepts of events vs. alerts;
+- Understoodd the alert properties;
+- Developed a systematic triage methodology for L1 analysts;
+- Navigated and utilize a SOC dashboard for initial investigation;
+- Mapped out the complete alert lifecycle.
 
 
 ## Triage Workflow and Process
