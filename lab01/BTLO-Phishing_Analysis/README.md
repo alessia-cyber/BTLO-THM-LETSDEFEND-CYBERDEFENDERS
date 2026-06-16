@@ -21,7 +21,7 @@ Someone received a phishing email and forwarded it to SOC.
 5. Viewed a safe, non-interactive preview of the URL - using URL2PNG - without visiting the live page.
 
 
-## Discalaimer
+## Disclaimer
 
 This lab writeup is for educational and portfolio purposes only.  
 No real-world incident data is included, and no platform-protected solutions are disclosed.  
