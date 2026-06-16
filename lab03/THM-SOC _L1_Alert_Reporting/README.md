@@ -12,13 +12,13 @@ It provides a comprehensive guide and excercies on how to properly report, escal
 - Simulated SOC dashboard provided by TryHackMe.
 
 
-## Learning Objectives
+## Skills Acquired
 
-- Identify high-risk alerts that require immediate attention;
-- Follow standard operating procedures (SOPs) for alert reporting;
-- Effectively write alert comments and communicate incident details to senior analysts and stakeholders;
-- Understand the proper escalation paths for different severity levels;
-- Document incidents accurately for future analysis and compliance.
+- Identified high-risk alerts that require immediate attention;
+- Followed standard operating procedures (SOPs) for alert reporting;
+- Effectively written alert comments and communicate incident details to senior analysts and stakeholders;
+- Understood the proper escalation paths for different severity levels;
+- Documented incidents accurately for future analysis and compliance.
 
 
 ## Triage Workflow and Process
