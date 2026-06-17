@@ -13,7 +13,7 @@ Through this room, I mastered critical Linux log sources to conduct more effecti
 ## Skills Acquired
 
 - **Comprehensive Log Analysis**: Explored and analyzed authentication, runtime, and system logs on Linuxto identify security anomalies and reconstruct incident timelines;
-- **Commands for Log Manipulation**: Mastered essential CLI commands for log manipulation (grep, awk);
+- **Commands for Log Manipulation**: Mastered essential CLI commands for log manipulation (grep);
 - **Auditd and System Monitoring**: Uncovered the inner workings of auditd to understand how the Linux kernel monitors and reports critical events;
 - **Event Filtering and Discovery**: Developed techniques to efficiently filter raw log data and discover hidden artifacts, including Bash history analysis to trace user activity and command execution.
 
