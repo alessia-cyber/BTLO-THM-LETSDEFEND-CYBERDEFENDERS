@@ -4,7 +4,7 @@
 ## Overview
 
 This report details my analysis and findings from the Introduction to SIEM room on TryHackMe.
-The room focuses on the fundamentals of SIEM and how it works.
+The room focuses on the fundamentals of SIEM and how SIEM works.
 
 
 ## Tools
