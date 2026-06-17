@@ -4,7 +4,7 @@
 ## Overview
 
 This report details my analysis and findings from the Cloud Security Pitfalls room on TryHackMe.
-This document covers the risks companies face when migrating to the cloud and outlines strategies 
+The room covers the risks companies face when migrating to the cloud and outlines strategies 
 to identify and address them within a Security Operations Center (SOC).
 
 
