@@ -3,7 +3,7 @@
 
 ## Overview
 
-This repository documents my completion of the **SOC L1 Alert Triage** room on TryHackMe. 
+This report details my analysis and findings from the **SOC L1 Alert Triage** room on TryHackMe. 
 The lab focused on the fundamental concepts of Security Operations Center (SOC) operations, 
 specifically the lifecycle of a security alert from generation to resolution.
 As an aspiring entry-level analyst, mastering the ability to efficiently triage alerts is critical. 
