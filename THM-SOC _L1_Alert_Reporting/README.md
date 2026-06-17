@@ -3,7 +3,8 @@
 
 ## Overview
 
-This training room focuses on the critical skills required for Level 1 Security Operations Center (SOC) analysts. 
+This report details my analysis and findings from the SOC L1 Alert Reporting room on TryHackMe.
+This room focuses on the critical skills required for Level 1 Security Operations Center (SOC) analysts. 
 It provides a comprehensive guide and excercies on how to properly report, escalate, and communicate about high-risk security alerts.
 
 
