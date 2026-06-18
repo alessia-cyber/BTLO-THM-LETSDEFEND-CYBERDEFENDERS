@@ -14,26 +14,26 @@ Investigate a cyberattack using Splunk to identify the attacker, analyze the att
 
 ## Skills Acquired
 
-- Log Correlation: The ability to link data across different data sources to trace an attack from the initial web request to outbound data exfiltration.
-- Anomaly Detection: Techniques for identifying suspicious patterns by filtering out "noise" to isolate unique signatures like non-standard User Agents or specific IP behaviors.
-- Attack Chain Analysis: Understanding the kill chain phases (Reconnaissance, Enumeration, Exploitation, RCE, Exfiltration)
-- Indicator of Compromise (IoC) Identification: Recognizing that `curl`, `wget`, `..\/..\/`, `redirect`, `SLEEP`, `shell.php` signal a breach.
-- Incident Quantification: Calculating the scope of an incident by aggregating metrics like event counts, attempt frequencies, and total bytes exfiltrated.
+- **Log Correlation**: The ability to link data across different data sources to trace an attack from the initial web request to outbound data exfiltration.
+- **Anomaly Detection**: Techniques for identifying suspicious patterns by filtering out "noise" to isolate unique signatures like non-standard User Agents or specific IP behaviors.
+- **Attack Chain Analysis**: **Understanding the kill chain phases (Reconnaissance, Enumeration, Exploitation, RCE, Exfiltration)
+- Indicator** of Compromise (IoC) Identification: Recognizing that `curl`, `wget`, `..\/..\/`, `redirect`, `SLEEP`, `shell.php` signal a breach.
+- **Incident Quantification**: Calculating the scope of an incident by aggregating metrics like event counts, attempt frequencies, and total bytes exfiltrated.
 
 
 ## Steps Taken
 
-1. Initial Triage: Search web_traffic logs across all time and visualize the event count per day to identify the peak traffic date;
-2. Find the Attacker: Use the user_agent section to reveal traffic and identify the specific malicious `client_ip`;
-3. Trace the Attack Chain Using the identified IP and run targeted queries to uncover:
+1. **Initial Triage**: Search web_traffic logs across all time and visualize the event count per day to identify the peak traffic date;
+2. **Find the Attacker**: Use the user_agent section to reveal traffic and identify the specific malicious `client_ip`;
+3. **Trace the Attack Chain** using the identified IP and run targeted queries to uncover:
    - Reconnaissance: Probing for config files (.env, .git).
    - Enumeration: Path traversal and redirect attempts.
    - Exploitation: SQL injection attacks (using sqlmap/Havij).
    - Compromise: RCE via webshells and ransomware staging.
    - Exfiltration: Downloads of sensitive archives.
    - Correlate C2 & Data Loss: Pivot to firewall_logs to trace outbound connections from the compromised server to the attacker's IP, confirming the Command & Control channel and calculating total bytes transferred.
-4. Finalize Findings: Extract the attacker IP, peak date, specific attack counts, and total exfiltrated data volume;
-5. Successfully answered all exercise questions by accurately analyzing the Splunk logs and applying the investigative steps outlined in the guide.
+4. **Finalize Findings**: Extract the attacker IP, peak date, specific attack counts, and total exfiltrated data volume;
+5. **Successfully answered all exercise questions** by accurately analyzing the Splunk logs and applying the investigative steps outlined in the guide.
 
 
 ## Key Takeaways
